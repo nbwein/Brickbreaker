@@ -27,8 +27,6 @@ public class Game implements Runnable {
 		final JFrame frame = new JFrame("Breakout");
 		frame.setLocation(300, 300);
 		
-//		String path = "/Users/Nick/Documents/workspace_java/HW 10/Instructions.txt";
-		
 		File file = new File("Instructions.txt");
 		String path = file.getAbsolutePath();
 		
